@@ -24,7 +24,7 @@ This is a script used to download docker images quickly
 </br>
 </br>
 
-## Either one of these settings (notrequired):
+## Either one of these settings (not required):
 ### The path of the directory used to save the images, creates it if it doesn't already exist (default is current directory)
     -p .    |   -p ~/images
 ### The extension to use when saving the downloaded images (default is docker)
