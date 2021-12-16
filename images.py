@@ -43,7 +43,8 @@ def download_image(image: str, image_path: str, extension: str, redownload: bool
 
     if ":" not in image:
         image = image.strip() + ":latest"
-    image_full_path = path.join(image_path, f"{image}.{extension}").replace(':', '.')
+    
+    image_full_path = path.join(image_path, f"{image}.{extension}".replace('/', '.')).replace(':', '.')
     image_downloaded = path.isfile(image_full_path)
 
     if image_downloaded and redownload:
