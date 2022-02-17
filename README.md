@@ -8,6 +8,9 @@ This is a script used to download docker images quickly
 `python3 ./images.py -r -p ./images -i python:3.5 nginx:latest`
 </br>
 
+`sudo python3 images-downloader/images.py -f imageslist -p images`
+</br>
+
 `python3 ./images.py -f images.txt`
 </br>
 </br>
